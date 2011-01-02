@@ -1,0 +1,6 @@
+name = DRTS Theme
+description = This theme has Drupal's default HTML markup and CSS styles. Requires the HTML5Cache module.
+package = Core
+version = 1.0
+core = 7.x
+stylesheets[all][] = layout.css
