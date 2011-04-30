@@ -2,7 +2,7 @@
   // See the system module's html.tpl.php for docs.
 ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
   "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language->language; ?>" version="XHTML+RDFa 1.0" dir="<?php print $language->dir; ?>"<?php print $rdf_namespaces; ?> manifest="cache.manifest">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language->language; ?>" version="XHTML+RDFa 1.0" dir="<?php print $language->dir; ?>" <?php print $rdf_namespaces; ?> manifest="http://localhost/game/cache.appcache">
 <head profile="<?php print $grddl_profile; ?>">
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
